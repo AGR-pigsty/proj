@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>BSP - Главная</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background: #ddebf3;
+    }
+    .wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh;
+    }
+    .header {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+        border-bottom: 1px solid #090909;
+    }
+    .menu {
+        display: flex;
+        gap: 15px;
+    }
+    .menu__item {
+        color: #090909;
+        text-decoration: none;
+    }
+    .main {
+        padding: 20px;
+    }
+    .about {
+        text-align: center;
+    }
+    .footer {
+        margin-top: auto;
+        padding: 20px;
+        border-top: 1px solid #090909;
+    }
+</style>
+</head>
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="logo">
+                «БСП»
+            </div>
+            <nav class="menu">
+                <a class="menu__item active" href="index.html">Главная</a>
+                <a class="menu__item" href="contacts.html">Контакты</a>
+                <a class="menu__item" href="reviews.html">Отзывы</a>
+                <a class="menu__item" href="accaunt.html">Аккаунт</a>
+            </nav>
+        </header>
+        
+        <main class="main">
+            <section class="about">
+                <h2>Добро пожаловать на наш сайт по подбору новостей - «БСП»!</h2>
+                <p>
+                    Мы предлагаем круглосуточный подбор новостей вам по душе!
+                </p>
+                
+                <div style="margin-top: 30px;">
+                    <h3>Почему выбирают нас?</h3>
+                    <ul style="text-align: left; display: inline-block;">
+                        <li>Персональный подбор новостей</li>
+                        <li>Круглосуточная работа</li>
+                        <li>Только проверенные источники</li>
+                        <li>Удобный формат получения</li>
+                    </ul>
+                </div>
+            </section>
+        </main>
+        
+        <footer class="footer">
+            <div>
+                Телефон: +7(964)-585-53-29
+            </div>
+            <div>
+                Email: grigory.pakhomov.2014@gmail.com
+            </div>
+            <div style="margin-top: 10px; font-size: 0.9em;">
+                © 2024 БСП. Все права защищены.
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
